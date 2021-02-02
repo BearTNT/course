@@ -1,0 +1,63 @@
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+body {
+	background-color: #f0e6e6;
+}
+
+@media (min-width: 1200px) {
+	.bg-4 {
+		width: 31.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.md-6 {
+		width: 48%;
+	}
+
+	.md-12 {
+		width: 98%;
+	}
+}
+
+@media (max-width: 767px) {
+	.sm-12 {
+		width: 98%;
+	}
+}
+
+div.block {
+	background-color: #968f8f;
+	box-sizing: border-box;
+	float: left;
+	border: 1px solid black;
+	margin: 10px 1% 10px 1%;
+	padding: 30px 15px 15px 15px;
+	position: relative;
+	font: 16px Arial;
+}
+
+div.block-name {
+	border: 1px solid black;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 5px;
+	font: 125% "OpenSans-Bold";
+	width: 200px;
+	text-align: center;
+	color: #423437;
+}
+
+div.main-name {
+	text-align: center;
+}
+
+.main-name > p {
+	font: 175% "OpenSans-Bold";
+}
+
